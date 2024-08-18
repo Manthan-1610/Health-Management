@@ -1,0 +1,66 @@
+.family-group-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2, h3 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  input {
+    flex: 1;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .invitations {
+    margin-top: 2rem;
+  }
+  
+  .invitation {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  
+  .invitation p {
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .invitation button {
+    margin-right: 0.5rem;
+  }
+  
+  .invitation button:last-child {
+    background-color: #dc3545;
+  }
+  
+  .invitation button:last-child:hover {
+    background-color: #c82333;
+  }
